@@ -16,3 +16,8 @@ foreach ($cores as $indice => $valor):
     echo $indice. "-".$valor."<br>";
 
 endforeach;
+echo "<hr>";
+$i= 1;
+for ($i=1; $i <=20; $i++): 
+  echo "Contador é  $i<br>";
+endfor;
