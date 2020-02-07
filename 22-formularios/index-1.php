@@ -36,7 +36,7 @@ if(isset($_POST['enviar-formulario'])):
 endif;
 ?>
 <!-- no metódo GET os parâmetros não enviados via URL -->
-<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
+<form action="<?php echo $_SERVER['PHP_SELF']?>" method="POST">
     Idade: <input type="text" name="idade"><br>
     Email <input type="text" name="email"><br>
     Peso: <input type="text" name="peso"><br>
